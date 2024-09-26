@@ -1,6 +1,5 @@
 #include <iostream>
-#include <vector>
-#include <algorithm>
+#include <bits/stdc++.h>
 #include <climits>
 
 using namespace std;
@@ -51,6 +50,5 @@ int main() {
     }
 
     cout << (canEscape(N, flypapers) ? "stay" : "adios") << endl;
-
     return 0;
 }
